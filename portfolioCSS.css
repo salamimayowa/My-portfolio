@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ccc;
+    background-color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+}
+
+.cover-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin: 50px 20px;
+}
+
+#about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #282c34;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-bottom: 5px;
+}
+
+#contact-form input, #contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #282c34;
+    color: white;
+    cursor: pointer;
+}
+.myButton {
+	box-shadow: 0px 10px 14px -7px #282c34;
+	background:linear-gradient(to bottom,  #282c34 5%,  #282c34 100%);
+	background-color: #282c34;
+	border-radius:16px;
+	border:3px solid  #282c34;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:13px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px  #282c34;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom,  #282c34 5%,  #282c34 100%);
+	background-color: #282c34;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
